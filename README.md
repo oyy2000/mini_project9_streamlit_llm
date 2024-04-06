@@ -30,9 +30,6 @@ We will build an application that is something similar to [ChatPDF](https://www.
 
 * Chat UI: The user interface is also an important component. Although there are many technologies available, I prefer using [Streamlit](https://streamlit.io), a Python library, for peace of mind.
 
-
-
-
 ## Setup HuggingFace Model
 First things first, we need to set up the LLM server. Here’s how you can do it:
 1. Create a token on HuggingFace.
@@ -108,6 +105,14 @@ For a simple user interface, we will use [Streamlit](https://streamlit.io/), a U
 
 Run this code with the command ```streamlit run app.py``` to see what it looks like.
 
-
 Reference from Blog post: https://blog.duy-huynh.com/build-your-own-rag-and-run-them-locally/
 
+## Deployment
+It is quite easy to deploy a Streamlit application on Streamlit Cloud following the instructions [here](https://docs.streamlit.io/library/deploying/deploying-with-streamlit-sharing).
+
+1. Create a free account on Streamlit Cloud.
+2. Install the Streamlit CLI.
+3. Deploy the application using the 'Deploy' button on the local website.
+4. Prepare the 'requirements.txt' file with the necessary dependencies using the command ```pip freeze > requirements.txt```.
+4. Set up the environment variables for the HuggingFace token.
+![alt text](image-1.png)
