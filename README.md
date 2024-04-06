@@ -2,6 +2,9 @@
 
 Build a ChatPDF Retrieval Augmented Generation application with LLM model from HuggingFace and UI built with Streamlit.
 
+demo: https://ragapplication.streamlit.app/
+
+![alt text](image.png)
 > With the rise of Large Language Models and their impressive capabilities, many fancy applications are being built on top of giant LLM providers like OpenAI and Anthropic. The myth behind such applications is the RAG framework, which has been thoroughly explained in the references.
 
 ## Prerequisites
